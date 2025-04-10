@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: user-search-application
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    repo: https://github.com/yourusername/user-search-application.git # Replace with your actual repository
+    branch: main
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+    healthCheckPath: /
