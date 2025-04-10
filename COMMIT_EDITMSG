@@ -1,0 +1,13 @@
+Assistant checkpoint: Fixed syntax error in vite.ts
+
+Assistant generated file changes:
+- server/vite.ts: Fix syntax error in import statement
+
+---
+
+User prompt:
+
+okay?
+
+Replit-Commit-Author: Assistant
+Replit-Commit-Session-Id: 204c239b-412b-4e35-9705-c3c9b2a019a2
